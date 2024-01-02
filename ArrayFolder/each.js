@@ -4,6 +4,7 @@ function each(items, cb) {
     result.push(cb(items[i], i));
   }
   return result;
+
 }
 
 module.exports = each;
